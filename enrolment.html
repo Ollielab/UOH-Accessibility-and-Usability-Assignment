@@ -43,11 +43,9 @@
 
     <main id="main-content" class="max-w-7xl mx-auto main-container">
 
-        <table class="layout-table">
-            <tbody>
-                <tr>
-                    <td class="align-top p-4 w-full md:w-1/2">
-                        <form onsubmit="return false;" class="space-y-4">
+        <div class="layout-container">
+            <div class="layout-column-left">
+                <form onsubmit="return false;" class="space-y-4">
                             
                             <section id="apply" class="card">
                                 <h2 class="card-title">Step 1: Personal Details</h2>
@@ -150,9 +148,9 @@
                             </div>
                             <div id="form-status" class="form-status hidden"></div>
                         </form>
-                    </td>
+                    </div>
 
-                    <td class="align-top p-4 max-w-sm">
+                    <div class="layout-column-right">
                         
                         <section id="video-guide" class="card mb-6">
                             <h3 class="card-title">Application Guide</h3>
@@ -213,10 +211,8 @@
                             </div>
                         </section>
 
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    </div>
+        </div>
 
         <div class="warning-box">
             <h3 id="link1" class="warning-box-title">Quick Links & Resources</h3>
